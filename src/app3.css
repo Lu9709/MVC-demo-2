@@ -1,0 +1,17 @@
+#app3 {
+    border: 1px solid greenyellow;
+}
+
+#app3 .square {
+    border: 1px solid gray;
+    margin-top: 10vw;
+    margin-left: 10vw;
+    width: 10vw;
+    height: 10vw;
+    transition: transform 1s;
+    /* 添加过渡*/
+}
+
+#app3 .square.active {
+    transform: translateX(10vw);
+}
